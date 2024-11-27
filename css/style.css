@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
-img{
+img {
     display: block;
 }
 
@@ -37,17 +37,17 @@ img{
 }
 
 /********************************/
-.header{
+.header {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container{
+.header-container {
     display: flex;
 }
 
-.header-nav{
-    display: flex; 
-    align-items: center; 
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -68,10 +68,11 @@ img{
     color: #2e2f42
 }
 
-.header-nav-list{
+.header-nav-list {
     display: flex;
     gap: 40px;
 }
+
 .header-nav-item {
     font-weight: 500;
     line-height: 1.5;
@@ -92,10 +93,11 @@ img{
     letter-spacing: 0.02em;
 }
 
-.header-address-list{
+.header-address-list {
     display: flex;
     gap: 40px;
 }
+
 .header-address-item {
     color: #434455;
 }
@@ -110,6 +112,7 @@ img{
 
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .hero-header {
@@ -118,6 +121,7 @@ img{
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -129,6 +133,11 @@ img{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-button:hover,
