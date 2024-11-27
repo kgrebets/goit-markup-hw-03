@@ -6,6 +6,8 @@ body {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -151,7 +153,6 @@ img {
 /********************************/
 .values {
     padding: 120px 0;
-
 }
 
 .values-list {
@@ -160,7 +161,7 @@ img {
 }
 
 .values-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .values-item-header,
