@@ -159,7 +159,7 @@ img {
     gap: 24px;
 }
 
-.values- {
+.values-item {
     width: calc((100% - 72px) / 4);
 }
 
